@@ -32,7 +32,43 @@ console.log(consumoEnergia);*/
 
 //---------------------------------------
 
-let quilowatts = 280;
+/*let quilowatts = 280;
 let consumoEnergia = (quilowatts * 0.05) - 2.1;
 
-console.log(consumoEnergia);
+console.log(consumoEnergia);*/
+
+//---------------------------------------------------------------------------------13/04/2023
+
+/*
+var nome = prompt("Digite seu nome: ");
+
+const nota1 = Number(prompt("Primeira Nota:"));
+const nota2 = Number(prompt("Segunda Nota:"));
+const nota3 = Number(prompt("Terceira Nota:"));
+
+ let calcularMedia = (nota1 + nota2 + nota3) / 3;
+
+console.log(nome + " sua média foi: "+ calcularMedia);
+
+if (calcularMedia >= 6) {
+    console.log("Parabéns você foi aprovado!")
+}   
+else {
+    console.log("Você vai repetir de ano!")
+};*/
+
+/*let num = Number(prompt("Digite um número: "));
+
+if (num % 2 === 0){
+    alert("é par!")
+}
+else{
+    alert("é ímpar!")
+}*/
+
+const num1 = Number(prompt("Digite o primeiro número: "));
+const num2 = Number(prompt("Digite o segundo número: "));
+const num3 = Number(prompt("Digite o terceiro número: "));
+
+const max = alert(Math.max(num1, num2, num3));
+
